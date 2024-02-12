@@ -1,0 +1,96 @@
+body{
+    color: rgb(255, 255, 255);
+    background-color: rgb(34,34,34);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifS;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div{
+    font-size: 20px;
+}
+
+h1{
+    font-weight: 200;
+}
+
+a{
+    color: white;
+}
+
+.top2:hover{
+    color: black;
+    transition: 0.3s  ;
+
+}
+
+li{
+    display: inline-block;
+    margin: 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+span{
+    color: blueviolet;
+    font-size: 40px;
+}
+
+p{
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 500px;
+}
+
+
+
+
+
+
+
+#top{
+    border: solid blueviolet;
+    border-radius: 15px;
+    background-color: blueviolet;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+
+
+.top2{
+    border: solid blueviolet;
+    border-radius: 12px;
+    padding: 3px;  
+}
+
+.top2:hover{
+    background-color: blueviolet;
+    color: black;
+}
+
+img{
+    width: 800px;
+}
+  
+#top0{
+    color: white;
+}
+
+#top0:hover{
+    transition: 0.3s ;
+    color: blueviolet;
+}

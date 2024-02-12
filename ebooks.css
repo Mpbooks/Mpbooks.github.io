@@ -1,0 +1,61 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap%27%29%3B);
+
+body{
+    color: white;
+    background-color: rgb(34, 34, 34);
+    margin: 0 auto;   
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center ;
+}
+
+h1{
+    font-weight: 200;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+form{
+    margin: 17px;
+}
+
+input{
+    border-radius: 5px;
+}
+
+
+
+button{
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+
+
+li{
+    display: inline-block;
+    margin: 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 30%;
+}
+
+a{
+    color: blueviolet;
+}
+
+a:hover{
+    transition: 0.3s all;
+    color: white;
+}
+

@@ -1,0 +1,107 @@
+body{
+    color: white;
+    margin: 0 auto;
+    background: rgb(34,34,34);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center ;
+}
+
+#linha{
+    border-top: 0.4px solid whitesmoke;
+}
+
+
+div{
+    font-size: 20px;
+}
+
+h1{
+    font-weight: 200;
+}
+
+li{
+    display: inline-block;
+    margin: 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    display: flex;
+     flex-direction: row;
+     margin-top:15px;
+     justify-content: space-evenly;
+     
+}
+
+#kind{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+
+ #pq{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+a{
+    color: beige;
+}
+
+a :hover{
+    color: blueviolet;
+    transition: 0.3s all ;
+}
+
+.top1{
+    border: solid;
+    border-radius: 12px;
+    padding: 3px;
+    color: blueviolet;
+}
+
+p{
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 500px;
+}
+
+#digital{
+    width: 580px;
+}
+
+#kindle{
+    width: 580px;
+}
+ 
+.roxo{
+    color: blueviolet;
+}
+
+#ima{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 30px;
+    margin-top: 40px;
+    justify-content: space-evenly; 
+}
+
+#imagem{
+    width: 580px;
+}
+
+.ter{
+    border: solid blueviolet;
+    border-radius: 15px;
+    background-color: blueviolet;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}

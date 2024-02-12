@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./ebooks.css" rel="stylesheet">
+    <link rel="stylesheet" href="cell.css">
+    <script src="./main.js" defer></script>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha conforme necessário */
+            justify-content: center; /* Centraliza os itens horizontalmente */
+            align-items: flex-start; /* Alinha os itens ao topo do contêiner */
+        }
+
+
+        .item {
+            text-align: center; /* Centraliza o texto horizontalmente */
+            margin: 10px; /* Adiciona espaçamento entre os itens */
+            flex: 0 0 calc(33.33% - 20px); /* Define a largura do item, ajuste conforme necessário */
+        }
+
+        .image {
+            display: block;
+            margin: 0 auto;
+            width: 40%; /* Ajuste conforme necessário */
+            height: auto; /* Mantém a proporção da imagem */
+        }
+    </style>
+    <title>Mpbooks-Ebooks</title>
+</head>
+<body>
+    <header>
+        <div id="titulo">
+          <h1>Mpbooks</h1>
+        </div>
+        <ul>
+           
+<a href="index.html"> <li>Página Inicial</li></a>
+                    <a href="./inicio.html" class="top1"> <li>Início</li></a>
+                    <a href="./cursos.html"  class="top1"> <li>Cursos</li></a>
+                     </ul>
+    </header>
+    <div class="container">
+        <div class="item">
+            <img class="image" src="./assets/images/historia de math.jpg" alt="MATH">
+          <h3>30 histórias de matemática para seu filho</h3>
+            <p>R$11,99</p>
+            <a href="./page1.html" id="top"><li>Ver</li></a>
+            <a href="https://pay.kiwify.com.br/0r8bJHP" id="top"><li>Comprar</li></a>
+        </div>
+        <div class="item">
+            <img class="image" src="./assets/images/floresta encantada img.jpg" alt="floresta encantada">
+          <h3> O Mistério da Floresta Encantada</h3>
+            <p>R$17,50</p>
+            <a href="./page2.html" id="top"><li>Ver</li></a>
+            <a href="https://pay.kiwify.com.br/es1oggG" id="top"><li>Comprar</li></a>
+        </div>
+        <div class="item">
+            <img class="image" src="assets/Receitas rapidas.jpg" alt="Receitas Rápidas">
+          <h3> Receitas Rápidas e Saudáveis para a Vida Moderna.</h3>
+            <p>R$15,50</p>
+            <a href="./page3.html" id="top"><li>Ver</li></a>
+            <a href="https://pay.kiwify.com.br/ICjpkCn" id="top"><li>Comprar</li></a>
+        </div>
+        </div>
+</body>
+</html>
